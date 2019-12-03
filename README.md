@@ -38,4 +38,5 @@ variable "region" {
 variable "zone" {
   type = string
   description = "Desired google cloud zone"
-}```
+}
+```
