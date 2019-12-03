@@ -9,7 +9,7 @@ Terraform infrastructure script to create kube-state-metric + New Relic infrastr
 
 # Variables
 
-``` json
+``` terraform
 variable "nria_license_key" {
   type = string
   description = "New relic license key. Can get this from New Relic account page."
