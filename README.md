@@ -3,7 +3,7 @@ Terraform infrastructure script to create kube-state-metric + New Relic infrastr
 
 # Usage
 1) Using gcloud console, set the correct cluster kubectl config see https://cloud.google.com/sdk/gcloud/reference/container/clusters/get-credentials (this will be used by terraform to deploy the infrastructure)
-2) Generate google service account credentials (need to have a Kubernetes role + IAM Create role)
+2) Generate google service account credentials (need to have a Kubernetes role)
 3) Run `terraform init`
 4) Run `terraform apply`. This will deploy the resources outlined in the terraform file
 
